@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power%20Query-217346?logo=microsoft&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-Analytics-yellow)
-![Status](https://img.shields.io/badge/Status-Completed-success)
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Power%20Query-217346?logo=microsoft&logoColor=white" alt="Power Query">
+  <img src="https://img.shields.io/badge/DAX-Analytics-yellow" alt="DAX">
+  <img src="https://img.shields.io/badge/Status-Completed-success" alt="Status">
 </p>
 
 This project analyzes 1,074 global unicorn companies to answer a question most dashboards skip: not just *who's worth the most*, but *who's creating value most efficiently*, and *how concentrated is the unicorn landscape really*.
