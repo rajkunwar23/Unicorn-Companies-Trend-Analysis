@@ -1,6 +1,6 @@
-# Global Unicorn Companies — Analytics Dashboard
+                             # Global Unicorn Companies — Analytics Dashboard
 
-**Python + PostgreSQL + Power BI | Maven Unicorns Dataset**
+                           **Python + PostgreSQL + Power BI | Maven Unicorns Dataset**
 
 ![MySQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) ![PowerBI](https://img.shields.io/badge/Power%20BI-Desktop-F2C811?logo=powerbi&logoColor=black) ![Status](https://img.shields.io/badge/Status-Completed-success)
 
@@ -44,10 +44,6 @@ This project builds the layer underneath the obvious ranking: a clean, queryable
 
 ---
 
-## Dashboard Preview
-
-### Full Dashboard — Unicorn Development, Industry Performers, Global Hubs
-![Dashboard Overview](screenshots/01_dashboard_overview.png)
 
 ---
 
