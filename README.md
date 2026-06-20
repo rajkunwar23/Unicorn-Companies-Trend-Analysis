@@ -16,8 +16,11 @@
 
 This project analyzes 1,074 global unicorn companies to answer a question most dashboards skip: not just *who's worth the most*, but *who's creating value most efficiently*, and *how concentrated is the unicorn landscape really*.
 
-![Dashboard Overview]<iframe title="final_unicorn_dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzE3MjZiMTQtMWYwNS00ZWEzLWEwNmMtNTI1YTE1YWY2MjY1IiwidCI6IjgxYTUwYmRlLWNjMjAtNDVjNC05NTljLTJkYWQ2NGVjZDg1OSJ9" frameborder="0" allowFullScreen="true"></iframe>
+## Interactive Dashboard
 
+🔗 **View the live Power BI dashboard here:**
+
+[Open Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzE3MjZiMTQtMWYwNS00ZWEzLWEwNmMtNTI1YTE1YWY2MjY1IiwidCI6IjgxYTUwYmRlLWNjMjAtNDVjNC05NTljLTJkYWQ2NGVjZDg1OSJ9)
 ---
 
 ## The Short Version
