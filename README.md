@@ -1,8 +1,16 @@
-                             # Global Unicorn Companies — Analytics Dashboard
+<h1 align="center">Global Unicorn Companies – Analytics Dashboard</h1>
 
-                           **Python + PostgreSQL + Power BI | Maven Unicorns Dataset**
+<p align="center">
+<b>Python + PostgreSQL + Power BI | Maven Unicorns Dataset</b>
+</p>
 
-![MySQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white) ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white) ![PowerBI](https://img.shields.io/badge/Power%20BI-Desktop-F2C811?logo=powerbi&logoColor=black) ![Status](https://img.shields.io/badge/Status-Completed-success)
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?logo=microsoft&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-Analytics-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
 
 This project analyzes 1,074 global unicorn companies to answer a question most dashboards skip: not just *who's worth the most*, but *who's creating value most efficiently*, and *how concentrated is the unicorn landscape really*.
 
@@ -146,7 +154,7 @@ dim_industry ─────  fact_unicorn
 
 **Design decisions worth explaining:**
 
-- **`dim_investor` is long-format and many-to-many.** The raw `investors` column held multiple investor names in a single comma-separated cell — a First Normal Form violation. Exploding it into one row per (company, investor) pair (3,051 rows across 1,253 unique investors) makes investor-level analysis possible, which a single string column never could.
+- **`dim_investor` is long-format and many-to-one.** The raw `investors` column held multiple investor names in a single comma-separated cell — a First Normal Form violation. Exploding it into one row per (company, investor) pair (3,051 rows across 1,253 unique investors) makes investor-level analysis possible, which a single string column never could.
 - **Surrogate keys (`geo_id`, `industry_id`) were generated in Python, not in PostgreSQL.** Both dimension tables were deduplicated and assigned sequential IDs before export, so the fact table's foreign keys were already correct on load — PostgreSQL's job was enforcing the constraint, not generating the key.
 - **The schema was corrected after the real export shape was known.** The original `schema.sql` included GDP enrichment and outlier-flag columns that weren't present in the actual cleaned export. Rather than silently mismatching the `\copy` load, those columns were explicitly dropped via `ALTER TABLE` once the true 17-column shape of `fact_unicorn.csv` was confirmed.
 
@@ -215,8 +223,6 @@ dim_industry ─────  fact_unicorn
 | Avg Valuation Deviation | Industry average minus overall average — powers the deviation bar chart |
 | Median FTV | `MEDIAN` of funding-to-valuation ratio per industry |
 | % of Industry | Each industry's share of total unicorn count |
-| Median Years to Unicorn | `MEDIAN(fact_unicorn[years_to_unicorn])` |
-| Net Value > $1B Count | Count of companies where valuation minus funding exceeds $1B |
 
 ---
 
@@ -305,4 +311,4 @@ In `psql`, update the file paths in `schema.sql`'s `\copy` commands to point to 
 
 **Rajkunwar Mane**
 
-[LinkedIn](#) | [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/rajkunwar-mane-241225295/)
