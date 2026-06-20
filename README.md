@@ -4,6 +4,7 @@
 <b>Python + PostgreSQL + Power BI | Maven Unicorns Dataset</b>
 </p>
 
+<p align="center">
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql&logoColor=white)
@@ -11,6 +12,7 @@
 ![Power Query](https://img.shields.io/badge/Power%20Query-217346?logo=microsoft&logoColor=white)
 ![DAX](https://img.shields.io/badge/DAX-Analytics-yellow)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
+</p>
 
 This project analyzes 1,074 global unicorn companies to answer a question most dashboards skip: not just *who's worth the most*, but *who's creating value most efficiently*, and *how concentrated is the unicorn landscape really*.
 
