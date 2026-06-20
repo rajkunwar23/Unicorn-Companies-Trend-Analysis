@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# Power BI temp files
+*.pbix.lock
+~$*.pbix
+
+# Database files (optional - remove if you want to share the .db)
+*.db-journal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+*.env
+
+# Logs
+*.log
+etl_log.txt
